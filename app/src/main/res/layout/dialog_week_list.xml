@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Set Alarm"
+        android:textColor="@color/dark_pink"
+        android:textSize="@dimen/_15sdp" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbWeekMonday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:text="Moday"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbWeekTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:text="Tuesday"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbWeekWednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:text="Wednesday"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbWeekThursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:text="Thursday"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbWeekFriday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:text="Friday"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbWeekSaturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:text="Saturday"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbWeekSunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:text="Sunday"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:padding="@dimen/_15sdp"
+        android:text="OK"
+        android:textColor="@color/dark_pink"
+        android:textSize="@dimen/_15sdp" />
+</LinearLayout>

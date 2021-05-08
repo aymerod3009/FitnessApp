@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.ReadyToGoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:padding="@dimen/_8sdp"
+            android:rotation="180"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            app:tint="@color/purple_500" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/ivMic"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:padding="@dimen/_15sdp"
+                android:src="@drawable/ic_baseline_mic_24"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                app:tint="@color/purple_500" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/ltvFirstExcersieImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="abs_crunches.json"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Ready to Go"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_pink"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFirstExcersieName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Wall sitting"
+            android:textAllCaps="true"
+            android:textColor="@color/purple_500"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.gusakov.library.PulseCountDown
+                    android:id="@+id/pulseCountDown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/_30sdp"
+                    android:text="15"
+                    android:textColor="@color/light_pink"
+                    android:textSize="@dimen/_30sdp"
+                    app:pc_startValue="15" />
+
+                <ImageView
+                    android:id="@+id/ivNext"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="right|center_vertical"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/ic_baseline_navigate_next_24"
+                    app:tint="@color/midgray" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout></layout>

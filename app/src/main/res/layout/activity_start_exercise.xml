@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.StartExerciseActivity">
+
+    <params.com.stepprogressview.StepProgressView
+        android:id="@+id/spvOverallProgress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:currentProgress="10"
+        app:markerColor="@android:color/white"
+        app:markers="10,20,30,40,50,60,70"
+        app:progressBackgroundColor="@color/midgray"
+        app:progressBarHeight="@dimen/_8sdp"
+        app:progressBarWidth="@dimen/_300sdp"
+        app:progressColor="@color/dark_pink"
+        app:textColor="@color/white"
+        app:textMargin="5dp"
+        app:textSize="15sp"
+        app:totalProgress="70" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:padding="@dimen/_8sdp"
+            android:rotation="180"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:visibility="gone"
+            app:tint="@color/purple_500" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/ivMic"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:padding="@dimen/_15sdp"
+                android:src="@drawable/ic_baseline_mic_24"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                app:tint="@color/purple_500" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/ltvExcersieImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="abs_crunches.json"
+                app:lottie_loop="true" />
+
+            <com.gusakov.library.PulseCountDown
+                android:id="@+id/pulseCountDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_30sdp"
+                android:text="3"
+                android:textColor="@color/light_pink"
+                android:textSize="@dimen/_100sdp"
+                app:pc_startValue="15" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCountTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAllCaps="true"
+                android:textColor="@color/dark_pink"
+                android:textSize="@dimen/_30sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" / "
+                android:textAllCaps="true"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvExerciseTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:textAllCaps="true"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvExcersieName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Wall sitting"
+            android:textAllCaps="true"
+            android:textColor="@color/purple_500"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <params.com.stepprogressview.StepProgressView
+                    android:id="@+id/stepProgressView"
+                    android:layout_width="@dimen/_320sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    app:currentProgress="0"
+                    app:markerColor="@color/black"
+                    app:markerWidth="@dimen/_30sdp"
+                    app:markers=""
+                    app:progressBackgroundColor="@color/midgray"
+                    app:progressBarHeight="@dimen/_50sdp"
+                    app:progressBarWidth="@dimen/_320sdp"
+                    app:progressColor="@color/dark_pink"
+                    app:textMargin="5dp"
+                    app:textSize="15sp"
+                    app:totalProgress="30" />
+
+                <ImageView
+                    android:id="@+id/ivPause"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/ic_baseline_pause_circle_24"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/ivPlay"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/ic_baseline_play_circle_24"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/ivNext"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="right|center_vertical"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/ic_baseline_navigate_next_24"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout></layout>

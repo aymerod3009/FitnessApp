@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Fitness" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="History" />
+
+    <item
+        android:id="@+id/navigation_report"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:title="Report" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/trans_pink_circle"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_baseline_alarm_24"
+        app:tint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvExerciseDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:text="Feb 6, 6:03pm"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/tvExerciseTypeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:text="ARM INTERMEDIATE"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvExerciseTotalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="@dimen/_5sdp"
+                app:drawableTint="@color/blue"
+                android:gravity="center_vertical"
+                android:text="00:23"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_10sdp"
+                app:drawableLeftCompat="@drawable/ic_baseline_alarm_24" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvExerciseBurnedCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:drawablePadding="@dimen/_5sdp"
+                app:drawableTint="@color/dark_pink"
+                android:gravity="center_vertical"
+                android:text="33"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_10sdp"
+                app:drawableLeftCompat="@drawable/ic_baseline_local_fire_department_24" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/midgray" />
+
+    </LinearLayout>
+</LinearLayout>

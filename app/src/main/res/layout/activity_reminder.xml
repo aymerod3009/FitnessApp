@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.ReminderActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_adplaceholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F2F2" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivAddReminder"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/pink_gredient_bg"
+            android:elevation="@dimen/_5sdp"
+            android:padding="@dimen/_12sdp"
+            android:src="@drawable/ic_baseline_restore_24"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+
+</LinearLayout></layout>

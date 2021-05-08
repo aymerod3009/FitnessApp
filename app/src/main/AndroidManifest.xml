@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qrolic.fitnessapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.FitnessApp">
+        <activity android:name=".activity.WorkoutBenifitsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.ReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExerciseCompleteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.StartExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReadyToGoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WorkoutListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BottomNavigationActivity"
+            android:label="@string/title_activity_bottom_navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AppIntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".myUtils.MyBroadCastReciver"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".myUtils.NotificationService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" />
+
+        <service
+            android:name=".myUtils.MyMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="true" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="true" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+    </application>
+
+</manifest>

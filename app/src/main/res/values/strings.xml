@@ -1,0 +1,1034 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_160_1_cm"><u>160.1 CM</u></string>
+    <string name="_48_kg"><u>48 kg</u></string>
+    <string name="ad_attribution">Ad Attribution</string>
+
+    <!-- admob ids-->
+  <!--  <string name="app_id">ca-app-pub-4203151841446769~3165717607</string>
+    <string name="banner_id">ca-app-pub-4203151841446769/8964839190</string>
+    <string name="intertitial_id">ca-app-pub-4203151841446769/8773267505</string>
+    <string name="native_id">ca-app-pub-4203151841446769/4485703982</string>-->
+    <!--test ids-->
+   <!-- <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+        <string name="intertitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_id">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--yoga-->
+    <string name="yoga_workout">YOGA WORKOUT</string>
+    <string name="yoga_beginner">YOGA BEGINNER</string>
+
+    <string name="yoga_lotus_pose">Lotus Pose</string>
+    <string name="yoga_lotus_time">00:60</string>
+    <string name="yoga_lotus_desc">How to do Padmasana (Lotus Position)
+    \n1. Sit on the floor or on a mat with legs stretched out in front of you while keeping the spine erect.
+    \n2. Bend the right knee and place it on the left thigh. Make sure that the sole of the feet point upward and the heel is close to the abdomen.
+    \n3. Now, repeat the same step with the other leg.
+    \n4. With both the legs crossed and feet placed on opposite thighs, place your hands on the knees in mudra position.
+    \n5. Keep the head straight and spine erect.
+    \n6. Hold and continue with gentle long breaths in and out.
+    \n\nBenefits of the Padmasana (Lotus Position)
+    \n1. Improves digestion
+    \n2. Reduces muscular tension and brings blood pressure under control
+    \n3. Relaxes the mind
+    \n4. Helps pregnant ladies during childbirth
+    \n5. Reduces menstrual discomfort</string>
+    <string name="yoga_lotus_pose_json">yoga_lotus_pose.json</string>
+    <string name="yoga_lotus_MET">2</string>
+
+    <string name="yoga_tree_pose">Tree Pose</string>
+    <string name="yoga_tree_pose_json">yoga_tree_pose.json</string>
+    <string name="yoga_tree_time">00:45</string>
+    <string name="yoga_tree_MET">2</string>
+    <string name="yoga_tree_desc">Beyond helping improve your balance, it can also strengthen your core, ankles, calves, thighs and spine.
+        <b>\n\nDo it:</b> Great for working on your balance and posture.
+        <b>\nSkip it:</b> You many want to skip this pose if you have low blood pressure or any medical conditions that affect your balance.
+        <b>\nModify:</b> Place one of your hands on a wall for support.
+        <b>\nBe mindful:</b>Focus on your breath in and out as you hold this pose.</string>
+
+    <string name="yoga_child_pose">Child\'s Pose</string>
+    <string name="yoga_child_pose_json">yoga_child_pose.json</string>
+    <string name="yoga_child_time">00:30</string>
+    <string name="yoga_child_MET">2</string>
+    <string name="yoga_child_desc">This calming pose is a good default pause position. You can use child’s pose to rest and refocus before continuing to your next pose. It gently stretches your lower back, hips, thighs, knees and ankles and relaxes your spine, shoulders and neck.
+\n\nDo it: When you want to get a nice gentle stretch through your neck spine and hips.
+\nSkip it: If you have knee injuries or ankle problems. Avoid also if you have high blood pressure or are pregnant.
+\nModify: You can rest your head on a cushion or block. You can place a rolled towel under your ankles if they are uncomfortable.
+\nBe mindful: Focus on relaxing the muscles of the spine and lower back as you breathe.</string>
+
+
+    <string name="yoga_cobra_pose">Cobra Pose</string>
+    <string name="yoga_cobra_pose_json">yoga_cobra_pose.json</string>
+    <string name="yoga_cobra_time">00:60</string>
+    <string name="yoga_cobra_MET">2</string>
+    <string name="yoga_cobra_desc">This back-bending pose can help strengthen the back muscles, increase spinal flexibility and stretches the chest, shoulders and abdomen.
+\n\nDo it: This post is great for strengthening the back.
+\nSkip it: If you have arthritis in your spine or neck, a low-back injury or carpal tunnel syndrome.
+\nModify: Just lift up a few inches, and don’t try to straighten your arms.
+\nBe mindful: Try to keep your navel drawing up away from the floor as you hold this pose.</string>
+
+
+    <!--Arm -->
+    <string name="arm_workout">ARM WORKOUT</string>
+    <string name="arm_intermediate">ARM INTERMEDIATE</string>
+
+    <string name="arm_dynamic_chest">Dynamic Chest</string>
+    <string name="arm_dynamic_chest_stretch_json">arm_dynamic_chest_stretch.json</string>
+    <string name="arm_dynamic_chest_time">00:40</string>
+    <string name="arm_dynamic_chest_MET">2.3</string>
+    <string name="arm_dynamic_chest_desc">
+        Stand on the floor with your feet shoulder width apart.Extend your arms forward at shoulder height with your plams facing each other.
+        \n\n Extend your arms as far out as possible,then move them back to the front.Repeat the exercise.
+    </string>
+
+    <string name="arm_jumping_jacks">Jumping Jacks</string>
+    <string name="arm_jumping_jacks_json">arm_jumping_jack.json</string>
+    <string name="arm_jumping_jacks_time">00:60</string>
+    <string name="arm_jumping_jacks_MET">7.7</string>
+    <string name="arm_jumping_jacks_desc">Jumping jacks are an efficient total-body workout that you can do almost anywhere. This exercise is part of what’s called plyometrics, or jump training. Plyometrics is a combination of aerobic exercise and resistance work. This type of exercise works your heart, lungs, and muscles at the same time.
+    Jumping jacks also involve your abdominal and shoulder muscles.
+    \n\nRegular exercise in general may also provide the following benefits:
+\nweight management
+\nreduced blood pressure
+\nreduced low-density lipoprotein (LDL) cholesterol, the “bad” cholesterol
+\nincreased high-density lipoprotein (HDL) cholesterol, the “good” cholesterol
+\nincreased insulin sensitivity
+        <!--
+        What about calories burned?
+    A 150-pound person doing just a single two-minute session (approximately 100 repetitions) of jumping jacks may burn around 19 calories. Doing jumping jacks for a total of 10 minutes broken up in spurts throughout the day would burn 94 calories total.--></string>
+
+    <string name="arm_shoulder_rotation">Shoulder Rotation</string>
+    <string name="arm_shoulder_rotation_desc">
+        Stand upright with your feet shoulder width apart.
+        \n\nStretch your arms in front of you and then spread them apart.
+        \n\nSwitch arms, and repeat the exercise.
+    </string>
+    <string name="arm_shoulder_rotation_MET">2</string>
+    <string name="arm_shoulder_rotation_time">00:45</string>
+    <string name="arm_shoulder_rotation_json">arm_shoulder_rotation.json</string>
+
+    <string name="arm_chest_shoulders_strech_desc">Exhale as you lift your hands up and pull your shoulders back</string>
+    <string name="arm_chest_shoulders_strech_MET">2.3</string>
+    <string name="arm_chest_shoulders_strech_time">00:20</string>
+    <string name="arm_chest_shoulders_strech_json">arm_chest_shoulders_stretch.json</string>
+    <string name="arm_chest_shoulders_strech">Chest Shoulder Strech</string>
+
+    <string name="arm_dynamic_chest_shoulders_strech_desc">Exhale as you lift your hands up and pull your shoulders back, and repeat the exersice</string>
+    <string name="arm_dynamic_chest_shoulders_strech_MET">2.3</string>
+    <string name="arm_dynamic_chest_shoulders_strech_time">00:45</string>
+    <string name="arm_dynamic_chest_shoulders_strech_json">arm_dynamic_chest_shoulders_stretch.json</string>
+    <string name="arm_dynamic_chest_shoulders_strech">Dynamic Chest Shoulders Strech</string>
+
+    <string name="arm_neck_strech_left">Neck Stretch (Left)</string>
+    <string name="arm_neck_stretch_left_desc">
+        Neck stretch instructions
+        \n1.Stand straight with your feet hip width apart and tilt your head toward the shoulder.
+        \n2.Place your hand on your head and gently pull until you feel the stretch in your neck.
+        \n\nProper form and breathing pattern :
+        \nRelax your neck, arms and shoulders, tilt your head and exhale (breath out) as you stretch your neck muscles.Inhale as you release the stretch. Don\'t force the neck beyond its normal range of motion and avoid any aggressive movements.
+        \n\nBenefits :
+        \nStreching your neck at the end of your workout routine helps to increase flexibility,improves range of motion and reduces muscle soreness.Adding this stretch to your everyday routine helps to remove tension,muscle knots and thightness in the neck.
+    </string>
+    <string name="arm_neck_stretch_left_MET">2.3</string>
+    <string name="arm_neck_stretch_left_time">00:15</string>
+    <string name="arm_neck_stretch_left_json">arm_neck_stretch_left.json</string>
+
+    <string name="arm_neck_strech_right">Neck Stretch (Right)</string>
+    <string name="arm_neck_stretch_right_json">arm_neck_stretch_right.json</string>
+    <string name="arm_neck_stretch_right_time">00:15</string>
+    <string name="arm_neck_stretch_right_MET">2.3</string>
+    <string name="arm_neck_stretch_right_desc">  Neck stretch instructions
+        \n1.Stand straight with your feet hip width apart and tilt your head toward the shoulder.
+        \n2.Place your hand on your head and gently pull until you feel the stretch in your neck.
+        \n\nProper form and breathing pattern :
+        \nRelax your neck, arms and shoulders, tilt your head and exhale (breath out) as you stretch your neck muscles.Inhale as you release the stretch. Don\'t force the neck beyond its normal range of motion and avoid any aggressive movements.
+        \n\nBenefits :
+        \nStreching your neck at the end of your workout routine helps to increase flexibility,improves range of motion and reduces muscle soreness.Adding this stretch to your everyday routine helps to remove tension,muscle knots and thightness in the neck.</string>
+
+
+    <string name="abs_boat_hold_leg_flutters">Boat Hold Leg Flutters</string>
+    <string name="abs_boat_hold_leg_flutters_json">abs_boat_hold_leg_flutters.json</string>
+    <string name="abs_boat_hold_leg_flutters_time">00:60</string>
+    <string name="abs_boat_hold_leg_flutters_MET">7</string>
+    <string name="abs_boat_hold_leg_flutters_desc">
+        1.Wear your sports shoes. Get hold of a mat, and lie down on your back.
+\n2.Keep your legs together, and extend them forward in front of you.
+\n3.Tighten your abs, lift your feet off the ground, look up at the ceiling, and begin moving your legs up and down.
+\n4.You can also move your legs in a criss-cross manner as a variation.
+        <!--
+                , you can burn anywhere between 20-120 calories. That’s equal to running for 15 minutes at moderate speed. So, kick some calories with flutter kicks!
+        -->
+    </string>
+    <string name="abs_cocoons">Cocoons</string>
+    <string name="abs_cocoons_json">abs_cocoons.json</string>
+    <string name="abs_cocoons_time">00:40</string>
+    <string name="abs_cocoons_MET">7</string>
+    <string name="abs_cocoons_desc">
+        Lie face up on the ground with your arms extended straight behind your head. Pull your knees in towards your chest, lift your bum off the floor and simultaneously lift your arms over your leg to perform a crunch. Return to the start position and repeat.
+    </string>
+    <string name="abs_crunches">Abs Crunches</string>
+    <string name="abs_crunches_json">abs_crunches.json</string>
+    <string name="abs_crunches_time">00:20</string>
+    <string name="abs_crunches_MET">5</string>
+    <string name="abs_crunches_desc">
+        crunches help you build muscle. ... This intense muscle isolation makes them a popular exercise for people trying to get six-pack abs. This also makes them ideal for strengthening your core, which includes your lower back muscles and obliques. Doing so can improve your balance and posture.
+    </string>
+    <string name="abs_diagonal_mountain_climbers">Mountain Climbers</string>
+    <string name="abs_diagonal_mountain_climbers_json">abs_diagonal_mountain_climbers.json</string>
+    <string name="abs_diagonal_mountain_climbers_time">00:45</string>
+    <string name="abs_diagonal_mountain_climbers_MET">8</string>
+    <string name="abs_diagonal_mountain_climbers_desc">
+        Step-by-Step Instructions
+\n\n1.Get into a plank position, making sure to distribute your weight evenly between your hands and your toes.
+\n2.Check your form—your hands should be about shoulder-width apart, back flat, abs engaged, and head in alignment.
+\n3.Pull your right knee into your chest as far as you can.
+\n4.Switch legs, pulling one knee out and bringing the other knee in.
+\n5.Keep your hips down, run your knees in and out as far and as fast as you can. Alternate inhaling and exhaling with each leg change.
+    </string>
+    <string name="abs_elbow_to_knee_crunch_left">Elbow to Knee Crunch Left</string>
+    <string name="abs_elbow_to_knee_crunch_left_json">abs_elbow_to_knee_crunch_left.json</string>
+    <string name="abs_elbow_to_knee_crunch_left_time">00:20</string>
+    <string name="abs_elbow_to_knee_crunch_left_MET">5</string>
+    <string name="abs_elbow_to_knee_crunch_left_desc">
+        Step-by-Step Instructions
+        \n\n1.Lie flat on your back and place your hands behind your head. Bend your knees and bring them up so that your thighs and hips form a 90 degree angle, calves parallel to the floor. With elbows flared lift your shoulder blades off the floor and hold the position. This is your starting position.
+        \n2.Twist your upper body in one direction bringing the elbow to the opposite knee while fully extending your other leg. Hold and then return back to the starting position to repeat in the opposite direction.
+    </string>
+    <string name="abs_elbow_to_knee_crunch_right">elbow to knee crunch right</string>
+    <string name="abs_elbow_to_knee_crunch_right_json">abs_elbow_to_knee_crunch_right.json</string>
+    <string name="abs_elbow_to_knee_crunch_right_time">00:20</string>
+    <string name="abs_elbow_to_knee_crunch_right_MET">5</string>
+    <string name="abs_elbow_to_knee_crunch_right_desc">
+         Step-by-Step Instructions
+        \n\n1.Lie flat on your back and place your hands behind your head. Bend your knees and bring them up so that your thighs and hips form a 90 degree angle, calves parallel to the floor. With elbows flared lift your shoulder blades off the floor and hold the position. This is your starting position.
+        \n2.Twist your upper body in one direction bringing the elbow to the opposite knee while fully extending your other leg. Hold and then return back to the starting position to repeat in the opposite direction.
+    </string>
+    <string name="abs_flutter_kicks">flutter kicks</string>
+    <string name="abs_flutter_kicks_json">abs_flutter_kicks.json</string>
+    <string name="abs_flutter_kicks_time">00:30</string>
+    <string name="abs_flutter_kicks_MET">7</string>
+    <string name="abs_flutter_kicks_desc">
+    1.Wear your sports shoes. Get hold of a mat, and lie down on your back.
+    \n2.Keep your legs together, and extend them forward in front of you.
+    \n3.Tighten your abs, lift your feet off the ground, look up at the ceiling, and begin moving your legs up and down.
+    \n4.You can also move your legs in a criss-cross manner as a variation.
+    </string>
+    <string name="abs_groin_crunch">groin crunch</string>
+    <string name="abs_groin_crunch_json">abs_groin_crunch.json</string>
+    <string name="abs_groin_crunch_time">00:20</string>
+    <string name="abs_groin_crunch_MET">5</string>
+    <string name="abs_groin_crunch_desc">
+        It will help to keep your fitness right.
+    </string>
+    <string name="abs_russian_twists">russian twists</string>
+    <string name="abs_russian_twists_json">abs_russian_twists.json</string>
+    <string name="abs_russian_twists_time">00:60</string>
+    <string name="abs_russian_twists_MET">9.54</string>
+    <string name="abs_russian_twists_desc">
+        The Russian twist is a simple and effective way to tone your core, shoulders, and hips. It’s a popular exercise among athletes since it helps with twisting movements and allows you to quickly change direction.
+        \n\nExercise instructions
+\n\nHere’s how to do a Russian twist:
+
+\n1.Sit on your sit bones as you lift your feet from the floor, keeping your knees bent.
+\n2.Elongate and straighten your spine at a 45-degree angle from the floor, creating a V shape with your torso and thighs.
+\n3.Reach your arms straight out in front, interlacing your fingers or clasping your hands together.
+\n4.Use your abdominals to twist to the right, then back to center, and then to the left.
+\n5.This is 1 repetition.
+    </string>
+    <string name="abs_spinal_rotation_left">spinal rotation (Left)</string>
+    <string name="abs_spinal_rotation_left_json">abs_spinal_rotation_left.json</string>
+    <string name="abs_spinal_rotation_left_time">00:30</string>
+    <string name="abs_spinal_rotation_left_MET">3</string>
+    <string name="abs_spinal_rotation_left_desc">
+        Lie in your back with your legs extended.
+        \n\n Lift your left leg up and use your right hand to pull your left knee to the right, but keep your other arm extended to the side on the floor.
+        \n\nHold this position for a few seconds.
+    </string>
+    <string name="abs_spinal_rotation_right">spinal rotation (Right)</string>
+    <string name="abs_spinal_rotation_right_json">abs_spinal_rotation_right.json</string>
+    <string name="abs_spinal_rotation_right_time">00:30</string>
+    <string name="abs_spinal_rotation_right_MET">3</string>
+    <string name="abs_spinal_rotation_right_desc">
+         Lie in your back with your legs extended.
+        \n\n Lift your right leg up and use your left hand to pull your right knee to the left, but keep your other arm extended to the side on the floor.
+        \n\nHold this position for a few seconds.
+    </string>
+    <string name="abs_star_plank">star plank</string>
+    <string name="abs_star_plank_json">abs_star_plank.json</string>
+    <string name="abs_star_plank_time">00:20</string>
+    <string name="abs_star_plank_MET">7</string>
+    <string name="abs_star_plank_desc">
+        Star Plank is an isometric hold that builds strength in your shoulder girdle, arm, obliques, deep abdominals and hip. ... \n1) Begin in a side plank position with right arm straight below right shoulder and legs long with feet stacked. \n2) Reach top arm and leg up and hold, squeezing abdominals.
+    </string>
+    <string name="abs_wipers">wipers</string>
+    <string name="abs_wipers_json">abs_wipers.json</string>
+    <string name="abs_wipers_time">00:30</string>
+    <string name="abs_wipers_MET">7</string>
+    <string name="abs_wipers_desc">
+        Steps:
+       \n\n1.Lie on your back with your arms straight out to the sides. Lift your legs and bend the knees at a 90-degree angle.
+\n2.Rotate the hips to one side, without letting the legs touch the floor.
+\n3.Lift your legs and return to the starting position.
+\n4.Rotate the hips to the opposite side and repeat until set is complete.
+    </string>
+
+
+    <string name="chest_archer_push_up">archer push up</string>
+    <string name="chest_archer_push_up_json">chest_archer_push_up.json</string>
+    <string name="chest_archer_push_up_time">00:30</string>
+    <string name="chest_archer_push_up_MET">8</string>
+    <string name="chest_archer_push_up_desc">
+        Archer push-ups are one of the most effective and versatile push-up variations.
+        \n\nHow To Perform Archer Push-Ups Correctly
+        \nThere are 3 key points that you have to be aware of while you are training with them.
+        \nFirst, you have to make sure that your body remains completely straight while you are performing the movement.
+        \nSecond, your assisting arm should remain completely straight during the whole movement.
+        \nThird, your legs must be close together – Preferably touching
+    </string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_left">bench kneeling lat stretch hold (Left)</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_left_json">chest_bench_kneeling_lat_stretch_hold_left.json</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_left_time">00:40</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_left_MET">2.3</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_left_desc">
+        The Bench Kneeling Lat Stretch is a flexibility exercise that utilizes the upper body equipment, which works your lats muscle tissues. Stretching increases your array of motion and blood flow, which implies your limbs and joints can move extra just ahead of an injury occur. This assists you remain injury-free. Static stretching begins by steadily easing in towards the stretch position and holding the position from 6 seconds to 2 minutes.
+    </string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_right">bench kneeling lat stretch hold (Right)</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_right_json">chest_bench_kneeling_lat_stretch_hold_right.json</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_right_time">00:40</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_right_MET">2.3</string>
+    <string name="chest_bench_kneeling_lat_stretch_hold_right_desc">
+                The Bench Kneeling Lat Stretch is a flexibility exercise that utilizes the upper body equipment, which works your lats muscle tissues. Stretching increases your array of motion and blood flow, which implies your limbs and joints can move extra just ahead of an injury occur. This assists you remain injury-free. Static stretching begins by steadily easing in towards the stretch position and holding the position from 6 seconds to 2 minutes.
+
+    </string>
+    <string name="chest_bench_kneeling_lat_stretch_left">bench kneeling lat stretch (Left)</string>
+    <string name="chest_bench_kneeling_lat_stretch_left_json">chest_bench_kneeling_lat_stretch_left.json</string>
+    <string name="chest_bench_kneeling_lat_stretch_left_time">00:40</string>
+    <string name="chest_bench_kneeling_lat_stretch_left_MET">2.3</string>
+    <string name="chest_bench_kneeling_lat_stretch_left_desc">
+        Dynamic stretching involves actively moving parts of the body and steadily escalating your reach, speed of movement, or each to prep your body for movement. Dynamic stretching is good for the duration of warm-ups.
+    </string>
+    <string name="chest_bench_kneeling_lat_stretch_right">bench kneeling lat stretch (Right)</string>
+    <string name="chest_bench_kneeling_lat_stretch_right_json">chest_bench_kneeling_lat_stretch_right.json</string>
+    <string name="chest_bench_kneeling_lat_stretch_right_time">00:40</string>
+    <string name="chest_bench_kneeling_lat_stretch_right_MET">2.3</string>
+    <string name="chest_bench_kneeling_lat_stretch_right_desc">
+        Dynamic stretching involves actively moving parts of the body and steadily escalating your reach, speed of movement, or each to prep your body for movement. Dynamic stretching is good for the duration of warm-ups.
+    </string>
+    <string name="chest_box_glute_stretch_hold_left">box glute stretch hold (Left)</string>
+    <string name="chest_box_glute_stretch_hold_left_json">chest_box_glute_stretch_hold_left.json</string>
+    <string name="chest_box_glute_stretch_hold_left_time">00:30</string>
+    <string name="chest_box_glute_stretch_hold_left_MET">2.3</string>
+    <string name="chest_box_glute_stretch_hold_left_desc">
+        - Make sure that the box being utilized is not too high in height
+\n- Position your Stretching Side Glute Leg Sideways, bent, knee pointing out, and foot pointing in.
+\n- Keep your torso above and behind your stretching side calf
+\n- Slowly lower your body down creating pressure on your hip, causing your Stretching Side knee and shin to raise higher than your hips towards your chest
+    </string>
+    <string name="chest_box_glute_stretch_hold_right">box glute stretch hold (Right)</string>
+    <string name="chest_box_glute_stretch_hold_right_json">chest_box_glute_stretch_hold_right.json</string>
+    <string name="chest_box_glute_stretch_hold_right_time">00:30</string>
+    <string name="chest_box_glute_stretch_hold_right_MET">2.3</string>
+    <string name="chest_box_glute_stretch_hold_right_desc">
+        - Make sure that the box being utilized is not too high in height
+\n- Position your Stretching Side Glute Leg Sideways, bent, knee pointing out, and foot pointing in.
+\n- Keep your torso above and behind your stretching side calf
+\n- Slowly lower your body down creating pressure on your hip, causing your Stretching Side knee and shin to raise higher than your hips towards your chest
+    </string>
+    <string name="chest_box_glute_stretch_left">box glute stretch left</string>
+    <string name="chest_box_glute_stretch_left_json">chest_box_glute_stretch_left.json</string>
+    <string name="chest_box_glute_stretch_left_time">00:20</string>
+    <string name="chest_box_glute_stretch_left_MET">2.3</string>
+    <string name="chest_box_glute_stretch_left_desc">
+        - Make sure that the box being utilized is not too high in height
+\n- Position your Stretching Side Glute Leg Sideways, bent, knee pointing out, and foot pointing in.
+\n- Keep your torso above and behind your stretching side calf
+\n- Slowly lower your body down creating pressure on your hip, causing your Stretching Side knee and shin to raise higher than your hips towards your chest
+
+    </string>
+    <string name="chest_box_glute_stretch_right">box glute stretch right</string>
+    <string name="chest_box_glute_stretch_right_json">chest_box_glute_stretch_right.json</string>
+    <string name="chest_box_glute_stretch_right_time">00:20</string>
+    <string name="chest_box_glute_stretch_right_MET">2.3</string>
+    <string name="chest_box_glute_stretch_right_desc">
+        - Make sure that the box being utilized is not too high in height
+\n- Position your Stretching Side Glute Leg Sideways, bent, knee pointing out, and foot pointing in.
+\n- Keep your torso above and behind your stretching side calf
+\n- Slowly lower your body down creating pressure on your hip, causing your Stretching Side knee and shin to raise higher than your hips towards your chest
+
+    </string>
+    <string name="chest_burpee_with_push_up">burpee with push up</string>
+    <string name="chest_burpee_with_push_up_json">chest_burpee_with_push_up.json</string>
+    <string name="chest_burpee_with_push_up_time">00:20</string>
+    <string name="chest_burpee_with_push_up_MET">8</string>
+    <string name="chest_burpee_with_push_up_desc">
+        This is a full-body, heart pumping exercise.
+\n\nSTEPS:
+\n1. Stand with your feet shoulder-width apart.
+\n2. Squat as deeply as you can and place your hands on the floor. Kick back into a push-up position.
+\n3. Do one push-up.
+\n4. Bring your legs back to a squat and jump up, throwing your hands above your head.
+\n5. Land and repeat.
+    </string>
+    <string name="chest_clap_push_up">clap push up</string>
+    <string name="chest_clap_push_up_json">chest_clap_push_up.json</string>
+    <string name="chest_clap_push_up_time">00:30</string>
+    <string name="chest_clap_push_up_MET">8</string>
+    <string name="cchest_clap_push_up_desc">
+        What It Does
+\nDevelops power in the chest, triceps, and shoulders.
+
+\n\nHow to Do It
+\nFrom a standard push-up position, lower your chest until it’s slightly below the level of your bent elbow, and then push upward with enough force so that your hands leave the ground by a few inches. Land with soft elbows in push-up form and continue the lowering motion toward the ground. Repeat. Make sure to keep your back flat and hips level throughout the movement.
+
+\n\nClaps (Harder): Once you get a handle on power push-ups, you can progress the exercise by adding in claps, which require more power to achieve the necessary airtime. For regular clap push-ups, perform a power push-up but with even more upward force. While your hands are in the air, clap below your chest. Like before, land with soft elbows in push-up form and continue lowering until your chest is slightly below the level of your bent elbow. Repeat.
+    </string>
+    <string name="chest_cross_knee_tricep_extension">cross knee tricep extension</string>
+    <string name="chest_cross_knee_tricep_extension_json">chest_cross_knee_tricep_extension.json</string>
+    <string name="chest_cross_knee_tricep_extension_time">00:30</string>
+    <string name="chest_cross_knee_tricep_extension_MET">2</string>
+    <string name="chest_cross_knee_tricep_extension_desc">
+       It is an excellent option to build your triceps without weights or equipment. Since this movement is basically a press down extension, the short (outside) head becomes most engaged as the arms extend or straighten.
+
+\n\nPerformance Tips:
+\n1. Whether utilizing the full plank position or modified on your knees, be sure to use an engaged core, with tight abs, hips slightly elevated, and glutes squeezed.
+\n2. Breath out on the way up.
+\n3. This can be an especially challenging exercise in both the full plank position and modified with the knees on the floor.  If you are unable to perform either of those options, begin by leaning against a wall. The closer your feet are to the wall, the easier the movement will be.
+
+    </string>
+    <string name="chest_cross_tricep_extension">cross tricep extension</string>
+    <string name="chest_cross_tricep_extension_json">chest_cross_tricep_extension.json</string>
+    <string name="chest_cross_tricep_extension_time">00:30</string>
+    <string name="chest_cross_tricep_extension_MET">2</string>
+    <string name="chest_cross_tricep_extension_desc">
+        What It Does
+\nStrengthens the upper body and core, with more focus on the triceps.
+\n\nHow to Do It
+\nBegin in a plank position, with your hands together and angled inward at 45 degrees so that your index fingers and thumbs touch to form a triangle (or diamond). Keep your elbows tight to your body and bend them to lower your chest toward the triangle. Reverse the movement to the starting position for one repetition. Keep the triangle directly below your chest throughout the movement.
+    </string>
+    <string name="chest_decline_close_push_up">decline close push up</string>
+    <string name="chest_decline_close_push_up_json">chest_decline_close_push_up.json</string>
+    <string name="chest_decline_close_push_up_time">00:30</string>
+    <string name="chest_decline_close_push_up_MET">8</string>
+    <string name="chest_decline_close_push_up_desc">
+        The decline pushup is a variation of the basic pushup. It’s done with your feet on an elevated surface, which puts your body at a downward angle.
+        n\nStep-by-step instructions
+\nYou’ll need a raised surface like bench, box, or chair to do decline pushups.
+
+\nThe higher the surface, the harder the exercise will be. If you’re new to decline pushups, start with a low surface, like a curb or step. You can increase the height over time.
+
+\n\n1.Kneel down with your back to the bench. Put your hands on the floor, shoulders over your wrists and elbows at 45 degrees. Place your feet on top of the bench.
+\n2.Brace your core, glutes, and quads. Bend your elbows and lower your chest to the floor, keeping your back and neck straight.
+\n3.Push into the floor to return to starting position, extending your elbows.
+\n4.Stop doing this exercise if you feel pain in your wrists, elbows, or shoulders.
+    </string>
+    <string name="chest_decline_wide_push_up">decline widepush up</string>
+    <string name="chest_decline_wide_push_up_time">00:30</string>
+    <string name="chest_decline_wide_push_up_json">chest_decline_wide_push_up.json</string>
+    <string name="chest_decline_wide_push_up_desc">
+        Position : Feet are placed on a raised surface with your hands on a lower surface or the ground.
+        \nBest for : working your shoulders and upper pecs
+    </string>
+    <string name="chest_decline_wide_push_up_MET">8</string>
+    <string name="chest_incline_close_push_up">incline close push up</string>
+    <string name="chest_incline_close_push_up_json">chest_incline_close_push_up.json</string>
+    <string name="chest_incline_close_push_up_time">00:30</string>
+    <string name="chest_incline_close_push_up_MET">8</string>
+    <string name="chest_incline_close_push_up_desc">
+        Instructions
+\n-Grasp horizontal bar (lower than chest height) with hands shoulder width or slightly narrower. Position forefeet back from bar with arms and body straight. Arms should be perpendicular to body.
+\n-Keeping body straight, lower chest to bar by bending arms. Push body up until arms are extended. Repeat.
+    </string>
+    <string name="chest_incline_push_up">incline push up</string>
+    <string name="chest_incline_push_up_json">chest_incline_push_up.json</string>
+    <string name="chest_incline_push_up_time">00:30</string>
+    <string name="chest_incline_push_up_MET">8</string>
+    <string name="chest_incline_push_up_desc">
+        To perform an incline pushup:
+
+\n1.Stand in front of your box or bench, then squat or bend down and place both hands on either side of it with your fingers pointing forward. Your hands should be about shoulder-width apart. If you need a wider piece of equipment to safely elevate yourself, don’t be shy about swapping it out.
+\n2.Once your hands are in the right position, step your body back into a plank position, one leg at a time. Make sure your body is in a straight line, your head is aligned with your spine, and that your lower back isn’t sagging before continuing. Looking a few inches ahead of you, rather than down at the box, can help keep your body straight.
+\n3.Next, bend your arms to help you slowly lower your chest toward the box. Straighten your arms to bring yourself back up into a straight line.
+\n4.Repeat 10 times for 3 sets to start. You can increase the repetitions within each set as you get stronger.
+    </string>
+    <string name="chest_modified_burpee">modified burpee</string>
+    <string name="chest_modified_burpee_json">chest_modified_burpee.json</string>
+    <string name="chest_modified_burpee_time">00:20</string>
+    <string name="chest_modified_burpee_MET">8</string>
+    <string name="chest_modified_burpee_desc">
+        Start standing. Squat down and place your hands on the floor in front of your feet. Place one foot far behind you as if you were stepping into a deep lunge then place the other foot right beside it so that you\'ve created a high plank position. Now reverse that by stepping one foot in towards your hand(s) right where it was when you started. Follow with the other foot, stand up and then repeat the whole sequence.
+
+    </string>
+    <string name="chest_plank_jumping_lunges">plank jumping lunges</string>
+    <string name="chest_plank_jumping_lunges_json">chest_plank_jumping_lunges.json</string>
+    <string name="chest_plank_jumping_lunges_time">00:40</string>
+    <string name="chest_plank_jumping_lunges_MET">4</string>
+    <string name="chest_plank_jumping_lunges_desc">
+        Land in a proper runner\'s lunge - with your front foot totally flat &amp; just outside of it\'s respective hand. If you can\'t, modify by walking your feet to &amp; from the lunge rather than jumping.
+    </string>
+    <string name="chest_plank_low_to_high">plank low to high</string>
+    <string name="chest_plank_low_to_high_json">chest_plank_low_to_high.json</string>
+    <string name="chest_plank_low_to_high_time">00:30</string>
+    <string name="chest_plank_low_to_high_MET">2</string>
+    <string name="chest_plank_low_to_high_desc">
+        High to low ‪‎plank‬ is one of the most effective core and upper body exercises. This ‪‎exercise‬ builds strength while cultivating a stronger mind-body connect by increasing awareness of the body
+    </string>
+    <string name="chest_plank_lunges">plank lunges</string>
+    <string name="chest_plank_lunges_json">chest_plank_lunges.json</string>
+    <string name="chest_plank_lunges_time">00:30</string>
+    <string name="chest_plank_lunges_MET">4</string>
+    <string name="chest_plank_lunges_desc">
+        Starting from a high lunge position, pull your abs in, exhale and step your front foot back to line the feet close together to assume a push up position. Fix your hands so that they are directly underneath your shoulders. Hold this extended position while keeping your core engaged and body tight with hips tucked under.
+    </string>
+    <string name="chest_stretch_left">stretch (Left)</string>
+    <string name="chest_stretch_left_json">chest_stretch_left.json</string>
+    <string name="chest_stretch_left_time">00:30</string>
+    <string name="chest_stretch_left_MET">2.3</string>
+    <string name="chest_stretch_left_desc">
+        Stand with your left arm close to wall.Extend your left arm and put left hand on the wall,then gently turn your body to the right.
+    </string>
+    <string name="chest_stretch_right">stretch (Right)</string>
+    <string name="chest_stretch_right_json">chest_stretch_right.json</string>
+    <string name="chest_stretch_right_time">00:30</string>
+    <string name="chest_stretch_right_MET">2.3</string>
+    <string name="chest_stretch_right_desc">
+        Stand with your right arm close to wall.Extend your right arm and put right hand on the wall,then gently turn your body to the left.
+    </string>
+    <string name="chest_tap_push_up">tap push up</string>
+    <string name="chest_tap_push_up_json">chest_tap_push_up.json</string>
+    <string name="chest_tap_push_up_time">00:60</string>
+    <string name="chest_tap_push_up_MET">8</string>
+    <string name="chest_tap_push_up_desc">
+        What It Does
+\nDevelops power in the chest, triceps, and shoulders.
+
+\n\nHow to Do It
+\nFrom a standard push-up position, lower your chest until it’s slightly below the level of your bent elbow, and then push upward with enough force so that your hands leave the ground by a few inches. Land with soft elbows in push-up form and continue the lowering motion toward the ground. Repeat. Make sure to keep your back flat and hips level throughout the movement.
+
+\n\nClaps (Harder): Once you get a handle on power push-ups, you can progress the exercise by adding in claps, which require more power to achieve the necessary airtime. For regular clap push-ups, perform a power push-up but with even more upward force. While your hands are in the air, clap below your chest. Like before, land with soft elbows in push-up form and continue lowering until your chest is slightly below the level of your bent elbow. Repeat.
+    </string>
+
+    <!--Leg workout-->
+    <string name="leg_assisted_pistol_left">assisted pistol left</string>
+    <string name="leg_assisted_pistol_left_json">leg_assisted_pistol_left.json</string>
+    <string name="leg_assisted_pistol_left_time">00:30</string>
+    <string name="leg_assisted_pistol_left_MET">2</string>
+    <string name="leg_assisted_pistol_left_desc">
+        There aren’t many movements that showcase a combination of strength, stability, coordination, and skill quite like the pistol squat.
+        \n\nAs a performance goal, the pistol squat presents you with an amazing opportunity to challenge yourself and see what you’re capable of with hard work and consistent practice — all while building some serious lower body strength and balance along the way.
+    </string>
+    <string name="leg_assisted_pistol_right">assisted pistol right</string>
+    <string name="leg_assisted_pistol_right_json">leg_assisted_pistol_right.json</string>
+    <string name="leg_assisted_pistol_right_time">00:30</string>
+    <string name="leg_assisted_pistol_right_MET">2</string>
+    <string name="leg_assisted_pistol_right_desc">
+         There aren’t many movements that showcase a combination of strength, stability, coordination, and skill quite like the pistol squat.
+        \n\nAs a performance goal, the pistol squat presents you with an amazing opportunity to challenge yourself and see what you’re capable of with hard work and consistent practice — all while building some serious lower body strength and balance along the way.
+    </string>
+    <string name="leg_bench_hamstring_stretch_left">bench hamstring stretch left</string>
+    <string name="leg_bench_hamstring_stretch_left_json">leg_bench_hamstring_stretch_left.json</string>
+    <string name="leg_bench_hamstring_stretch_left_time">00:50</string>
+    <string name="leg_bench_hamstring_stretch_left_MET">2.3</string>
+    <string name="leg_bench_hamstring_stretch_left_desc">
+        If you are active, one great way to really "get" the hamstrings is to put the heel or ankle of one leg on something that is about waist height or a little lower and bend at your hips to bring the front of your trunk towards your thigh.
+        \n\nKeeping your back straight will get you the best results while at the same time provide some safety for your spine.
+    </string>
+    <string name="leg_bench_hamstring_stretch_right">bench hamstring stretch right</string>
+    <string name="leg_bench_hamstring_stretch_right_json">leg_bench_hamstring_stretch_right.json</string>
+    <string name="leg_bench_hamstring_stretch_right_time">00:50</string>
+    <string name="leg_bench_hamstring_stretch_right_MET">2.3</string>
+    <string name="leg_bench_hamstring_stretch_right_desc">
+        If you are active, one great way to really "get" the hamstrings is to put the heel or ankle of one leg on something that is about waist height or a little lower and bend at your hips to bring the front of your trunk towards your thigh.
+        \n\nKeeping your back straight will get you the best results while at the same time provide some safety for your spine.
+    </string>
+    <string name="leg_bulgarian_split_squat_jump_left">bulgarian split squat jump left</string>
+    <string name="leg_bulgarian_split_squat_jump_left_json">leg_bulgarian_split_squat_jump_left.json</string>
+    <string name="leg_bulgarian_split_squat_jump_left_time">00:40</string>
+    <string name="leg_bulgarian_split_squat_jump_left_MET">8</string>
+    <string name="leg_bulgarian_split_squat_jump_left_desc">
+    A type of single-leg squat, the Bulgarian split squat is sure to deliver big benefits to your lower body.
+    \n\nWith one leg behind you and elevated off of the ground, this exercise targets many of the same muscles as a traditional squat, but with an emphasis on the quads.
+    \n\nWhat’s the point?
+    \n\nBenefits of the Bulgarian split squat abound.
+    \n\nAs a lower body exercise, it strengthens the muscles of the legs, including the quads, hamstrings, glutes, and calves.
+    \n\nAlso, as a single-leg exercise, your core is forced to work in overdrive to maintain your balance.
+    </string>
+    <string name="leg_bulgarian_split_squat_jump_right">bulgarian split squat jump right</string>
+    <string name="leg_bulgarian_split_squat_jump_right_json">leg_bulgarian_split_squat_jump_right.json</string>
+    <string name="leg_bulgarian_split_squat_jump_right_time">00:40</string>
+    <string name="leg_bulgarian_split_squat_jump_right_MET">8</string>
+    <string name="leg_bulgarian_split_squat_jump_right_desc">
+        A type of single-leg squat, the Bulgarian split squat is sure to deliver big benefits to your lower body.
+    \n\nWith one leg behind you and elevated off of the ground, this exercise targets many of the same muscles as a traditional squat, but with an emphasis on the quads.
+    \n\nWhat’s the point?
+    \n\nBenefits of the Bulgarian split squat abound.
+    \n\nAs a lower body exercise, it strengthens the muscles of the legs, including the quads, hamstrings, glutes, and calves.
+    \n\nAlso, as a single-leg exercise, your core is forced to work in overdrive to maintain your balance.
+    </string>
+    <string name="leg_butt_kicks">butt kicks</string>
+    <string name="leg_butt_kicks_json">leg_butt_kicks.json</string>
+    <string name="leg_butt_kicks_time">00:60</string>
+    <string name="leg_butt_kicks_MET">2</string>
+    <string name="leg_butt_kicks_desc">
+        How to do a butt kick exercise
+        \n\nButt kicks are easy to do, and they can be done almost anywhere — at a gym, on a track, or even in your living room.
+        \n\nTo try this drill:
+        \n1.Begin by standing with your feet about hip-distance apart, with your arms at your side.
+        \n2.Slowly bring your right heel to your buttocks by contracting your hamstring muscle.
+        \n3.Place the ball of your right foot back on the ground, and slowly bring your left heel to your buttocks.
+        \n4.Perform this motion a few more times — alternating heels and gradually building speed.
+        \n5.When you’re ready, continue alternating your right and left heels, picking up your pace until it feels like you’re jogging in place.
+        \n6.To work your upper body at the same time, pump your arms while performing this motion. If your left heel is kicking your buttocks, pump your right arm forward at a 90-degree angle. If your right heel is kicking, pump your left arm forward.
+        \n7.Continue the drill for at least 30 seconds, focusing on quick leg turnover.
+        \n8.You can increase the duration as you build your fitness.
+    </string>
+    <string name="leg_chair_stand_excercise">chair stand excercise</string>
+    <string name="leg_chair_stand_excercise_json">leg_chair_stand_excercise.json</string>
+    <string name="leg_chair_stand_excercise_time">00:50</string>
+    <string name="leg_chair_stand_excercise_MET">2</string>
+    <string name="leg_chair_stand_excercise_desc">
+        Image result for sit stand exercise without chair benefits
+It\'s a functional exercise for that exact movement and strengthens leg, core, and back muscles. Those muscles are needed to increase mobility and independence as well as improve balance
+    </string>
+    <string name="leg_curtsy_lunge_alternating">curtsy lunge alternating</string>
+    <string name="leg_curtsy_lunge_alternating_json">leg_curtsy_lunge_alternating.json</string>
+    <string name="leg_curtsy_lunge_alternating_time">00:60</string>
+    <string name="leg_curtsy_lunge_alternating_MET">4</string>
+    <string name="leg_curtsy_lunge_alternatinge_desc">
+        Standing with a braced core and flat back, bring your hands together at chest height. Position your feet to be at hip-width.
+\n\nBeginning with the right foot, step backward and across your left foot. Simultaneously, bend the left knee and drop it towards the ground.
+\n\nStop when the front right knee is parallel with the ground. Push off the ground with your right foot and return to the starting position.
+    </string>
+    <string name="leg_curtsy_lunge_left">curtsy lunge left</string>
+    <string name="leg_curtsy_lunge_left_json">leg_curtsy_lunge_left.json</string>
+    <string name="leg_curtsy_lunge_left_time">00:30</string>
+    <string name="leg_curtsy_lunge_left_MET">4</string>
+    <string name="leg_curtsy_lunge_left_desc">
+         Standing with a braced core and flat back, bring your hands together at chest height. Position your feet to be at hip-width.
+\n\nBeginning with the left foot, step backward and across your left foot. Simultaneously, bend the left knee and drop it towards the ground.
+\n\nStop when the front left knee is parallel with the ground. Push off the ground with your left foot and return to the starting position.
+    </string>
+    <string name="leg_curtsy_lunge_right">curtsy lunge right</string>
+    <string name="leg_curtsy_lunge_right_json">leg_curtsy_lunge_right.json</string>
+    <string name="leg_curtsy_lunge_right_time">00:30</string>
+    <string name="leg_curtsy_lunge_rightt_MET">4</string>
+    <string name="leg_curtsy_lunge_right_desc">
+        Standing with a braced core and flat back, bring your hands together at chest height. Position your feet to be at hip-width.
+\n\nBeginning with the right foot, step backward and across your right foot. Simultaneously, bend the right knee and drop it towards the ground.
+\n\nStop when the front right knee is parallel with the ground. Push off the ground with your right foot and return to the starting position.
+    </string>
+    <string name="leg_dead_bug">dead bug</string>
+    <string name="leg_dead_bug_json">leg_dead_bug.json</string>
+    <string name="leg_dead_bug_time">00:45</string>
+    <string name="leg_dead_bug_MET">2</string>
+    <string name="leg_dead_bug_desc">
+        The dead bug exercise is a popular way to build core strength and stabilization.
+        \n\nIt helps build a solid, stable foundation that protects the spine and allows for greater ease in everyday and athletic movements, such as moving heavy objects, walking up hills, and throwing.
+        \n\nThis move also helps prevent and relieve low back pain by protecting your lower back.
+        \n\nTo do it:
+        \n\n1.Allow your shoulders and lower back to fall heavy to the floor.
+        \n2.Draw your shoulders down away from your ears. To get into the starting position, lift your hands so your elbows are above your shoulders with your fists facing in toward each other.
+        \n3.Lift your legs so your knees are directly over your hips.
+        \n4.On an exhale, slowly lower your right arm and left leg until they’re just above the floor.
+        \n5.On an inhale, bring them back to the starting position.
+        \n6Repeat on the opposite side.
+        \n7.This is 1 rep.
+    </string>
+    <string name="leg_dead_bug_leg_lowering">dead bug leg lowering</string>
+    <string name="leg_dead_bug_leg_lowering_json">leg_dead_bug_leg_lowering.json</string>
+    <string name="leg_dead_bug_leg_lowering_time">00:45</string>
+    <string name="leg_dead_bug_leg_lowering_MET">2</string>
+    <string name="leg_dead_bug_leg_lowering_desc">
+    The dead bug exercise is a popular way to build core strength and stabilization.
+    \n\nIt helps build a solid, stable foundation that protects the spine and allows for greater ease in everyday and athletic movements, such as moving heavy objects, walking up hills, and throwing.
+    \n\nThis move also helps prevent and relieve low back pain by protecting your lower back.
+    </string>
+    <string name="leg_dynamic_hamstring_stretch_left">dynamic hamstring stretch left</string>
+    <string name="leg_dynamic_hamstring_stretch_left_json">leg_dynamic_hamstring_stretch_left.json</string>
+    <string name="leg_dynamic_hamstring_stretch_left_time">00:30</string>
+    <string name="leg_dynamic_hamstring_stretch_left_MET">2.3</string>
+    <string name="leg_dynamic_hamstring_stretch_left_desc">
+        This stretch is good to do at the end of an outdoors workout when you might not want to sit on the ground.
+        \n\nHere’s how to do it:
+\n\n1.Plant both feet on the floor, hip-width apart.
+\n2.Release your left leg and take a small step forward, resting your heel on the floor with your foot flexed.
+\n3.Hinge forward from the hips and reach your right hand towards your left foot. If you can reach, gently pull your toes back towards you.
+    </string>
+    <string name="leg_dynamic_hamstring_stretch_right">dynamic hamstring stretch right</string>
+    <string name="leg_dynamic_hamstring_stretch_right_json">leg_dynamic_hamstring_stretch_right.json</string>
+    <string name="leg_dynamic_hamstring_stretch_right_time">00:30</string>
+    <string name="leg_dynamic_hamstring_stretch_right_MET">2.3</string>
+    <string name="leg_dynamic_hamstring_stretch_right_desc">
+        This stretch is good to do at the end of an outdoors workout when you might not want to sit on the ground.
+        \n\nHere’s how to do it:
+\n\n1.Plant both feet on the floor, hip-width apart.
+\n2.Release your right leg and take a small step forward, resting your heel on the floor with your foot flexed.
+\n3.Hinge forward from the hips and reach your left hand towards your right foot. If you can reach, gently pull your toes back towards you.
+
+    </string>
+    <string name="leg_dynamic_hip_flexor_stretch_left">dynamic hip flexor stretch left</string>
+    <string name="leg_dynamic_hip_flexor_stretch_left_json">leg_dynamic_hip_flexor_stretch_left.json</string>
+    <string name="leg_dynamic_hip_flexor_stretch_left_time">00:20</string>
+    <string name="leg_dynamic_hip_flexor_stretch_left_MET">2.3</string>
+    <string name="leg_dynamic_hip_flexor_stretch_left_desc">
+        What it stretches: hips, quadriceps
+\n\nStep 1: From a standing position, take a big step forward with your right foot as if you were doing an extended lunge. Plant your right foot firmly on the ground.
+\nStep 2: Place your right arm gently on your right thigh and lean forward until you feel a stretch in your left hip. Keep your back and head upright. Do not put too much weight on your right thigh and do not overextend the knee past your right ankle (this could cause unnecessary strain on your knee).
+\nStep 3: For a deeper stretch, activate your left glute muscle as you continue to lean forward.
+\nStep 4: Release and return to the starting position.
+    </string>
+    <string name="leg_dynamic_hip_flexor_stretch_right">dynamic hip flexor stretch right</string>
+    <string name="leg_dynamic_hip_flexor_stretch_right_json">leg_dynamic_hip_flexor_stretch_right.json</string>
+    <string name="leg_dynamic_hip_flexor_stretch_right_time">00:20</string>
+    <string name="leg_dynamic_hip_flexor_stretch_right_MET">2.3</string>
+    <string name="leg_dynamic_hip_flexor_stretch_right_desc">
+           What it stretches: hips, quadriceps
+\n\nStep 1: From a standing position, take a big step forward with your left foot as if you were doing an extended lunge. Plant your left foot firmly on the ground.
+\nStep 2: Place your left arm gently on your left thigh and lean forward until you feel a stretch in your right hip. Keep your back and head upright. Do not put too much weight on your left thigh and do not overextend the knee past your left ankle (this could cause unnecessary strain on your knee).
+\nStep 3: For a deeper stretch, activate your right glute muscle as you continue to lean forward.
+\nStep 4: Release and return to the starting position.
+    </string>
+    <string name="leg_hamstring_stretch_left">hamstring stretch left</string>
+    <string name="lleg_hamstring_stretch_left_json">leg_hamstring_stretch_left.json</string>
+    <string name="leg_hamstring_stretch_left_time">00:20</string>
+    <string name="leg_hamstring_stretch_left_MET">2.3</string>
+    <string name="leg_hamstring_stretch_left_desc">
+         This stretch is good to do at the end of an outdoors workout when you might not want to sit on the ground.
+        \n\nHere’s how to do it:
+\n\n1.Plant both feet on the floor, hip-width apart.
+\n2.Release your left leg and take a small step forward, resting your heel on the floor with your foot flexed.
+\n3.Hinge forward from the hips and reach your right hand towards your left foot. If you can reach, gently pull your toes back towards you.
+\n4.Hold this position for 30 seconds before repeating it.
+    </string>
+    <string name="leg_hamstring_stretch_right">hamstring stretch right</string>
+    <string name="leg_hamstring_stretch_right_json">leg_hamstring_stretch_right.json</string>
+    <string name="leg_hamstring_stretch_right_time">00:20</string>
+    <string name="leg_hamstring_stretch_right_MET">2.3</string>
+    <string name="leg_hamstring_stretch_right_desc">
+    This stretch is good to do at the end of an outdoors workout when you might not want to sit on the ground.
+    \n\nHere’s how to do it:
+    \n\n1.Plant both feet on the floor, hip-width apart.
+    \n2.Release your right leg and take a small step forward, resting your heel on the floor with your foot flexed.
+    \n3.Hinge forward from the hips and reach your left hand towards your right foot. If you can reach, gently pull your toes back towards you.
+    </string>
+    <string name="leg_high_knee_taps">high knee taps</string>
+    <string name="leg_high_knee_taps_json">leg_high_knee_taps.json</string>
+    <string name="leg_high_knee_taps_time">00:30</string>
+    <string name="leg_high_knee_taps_MET">2</string>
+    <string name="leg_high_knee_taps_desc">
+        High Knee Taps are a great high intensity cardio exercise to really get the heart rate pumping and burn some calories. To get started:
+\n\n1. With a hip width stance, bend your elbows at a 90 degree angle in front of your body with your palms facing down.
+\n2. Drive one knee up so your knee taps your hands.
+\n3. Softly land the foot on the ground while immediately driving the opposite knee up to tap your other hand.
+\n4. Repeat as fast as you can for reps.
+    </string>
+    <string name="leg_high_stepping">high stepping</string>
+    <string name="leg_high_stepping_json">leg_high_stepping.json</string>
+    <string name="leg_high_stepping_time">00:30</string>
+    <string name="leg_high_stepping_MET">2</string>
+    <string name="leg_high_stepping_desc">
+        This exercise can strengthen your heart and lungs.
+        \n\nRun in place while pulling your knees as high as possible with each step.
+    </string>
+    <string name="leg_hip_flexor_stretch_left">hip flexor stretch left</string>
+    <string name="leg_hip_flexor_stretch_left_json">leg_hip_flexor_stretch_left.json</string>
+    <string name="leg_hip_flexor_stretch_left_time">00:20</string>
+    <string name="leg_hip_flexor_stretch_left_MET">2.3</string>
+    <string name="leg_hip_flexor_stretch_left_desc">
+         What it stretches: hips, quadriceps
+\n\nStep 1: From a standing position, take a big step forward with your right foot as if you were doing an extended lunge. Plant your right foot firmly on the ground.
+\nStep 2: Place your right arm gently on your right thigh and lean forward until you feel a stretch in your left hip. Keep your back and head upright. Do not put too much weight on your right thigh and do not overextend the knee past your right ankle (this could cause unnecessary strain on your knee).
+\nStep 3: For a deeper stretch, activate your left glute muscle as you continue to lean forward.
+    </string>
+    <string name="leg_hip_flexor_stretch_right">hip flexor stretch right</string>
+    <string name="leg_hip_flexor_stretch_right_json">leg_hip_flexor_stretch_right.json</string>
+    <string name="leg_hip_flexor_stretch_right_time">00:20</string>
+    <string name="leg_hip_flexor_stretch_right_MET">2.3</string>
+    <string name="leg_hip_flexor_stretch_right_desc">
+        What it stretches: hips, quadriceps
+\n\nStep 1: From a standing position, take a big step forward with your left foot as if you were doing an extended lunge. Plant your left foot firmly on the ground.
+\nStep 2: Place your left arm gently on your left thigh and lean forward until you feel a stretch in your right hip. Keep your back and head upright. Do not put too much weight on your left thigh and do not overextend the knee past your left ankle (this could cause unnecessary strain on your knee).
+\nStep 3: For a deeper stretch, activate your right glute muscle as you continue to lean forward.
+\nStep 4: Release and return to the starting position.
+    </string>
+    <string name="leg_kneeling_achilles_stretch_left">kneeling achilles stretch left</string>
+    <string name="leg_kneeling_achilles_stretch_left_json">leg_kneeling_achilles_stretch_left.json</string>
+    <string name="leg_kneeling_achilles_stretch_left_time">00:20</string>
+    <string name="leg_kneeling_achilles_stretch_left_MET">2.3</string>
+    <string name="leg_kneeling_achilles_stretch_left_desc">
+        1.Begin kneeling on the floor with your left foot planted flat, knee bent, and your right leg pulled out to the side.
+\n2.Lay your chest along your left thigh and move your left knee forward over the middle of your foot.
+\n3.Keep your right knee pulled out to the side to remove the hip flexor stretch.
+\n4.Keep your left heel, toes, and thigh in alignment.
+\n5.Never let your left heel lift off the floor.
+\n6.Maintain the forward lean with your left leg.
+    </string>
+    <string name="leg_kneeling_achilles_stretch_right">kneeling achilles stretch right</string>
+    <string name="leg_kneeling_achilles_stretch_right_json">leg_kneeling_achilles_stretch_right.json</string>
+    <string name="leg_kneeling_achilles_stretch_right_time">00:20</string>
+    <string name="leg_kneeling_achilles_stretch_right_MET">2.3</string>
+    <string name="leg_kneeling_achilles_stretch_right_desc">
+       1.Begin kneeling on the floor with your right foot planted flat, knee bent, and your left leg pulled out to the side.
+\n2.Lay your chest along your right thigh and move your right knee forward over the middle of your foot.
+\n3.Keep your left knee pulled out to the side to remove the hip flexor stretch.
+\n4.Keep your right heel, toes, and thigh in alignment.
+\n5.Never let your right heel lift off the floor.
+\n6.Maintain the forward lean with your right leg.
+    </string>
+    <string name="leg_lunges">lunges</string>
+    <string name="leg_lunges_json">leg_lunges.json</string>
+    <string name="leg_lunges_time">00:45</string>
+    <string name="leg_lunges_MET">4</string>
+    <string name="leg_lunges_desc">
+        How to do a lunge :
+\n\nThe basic lunge works the quads, glutes, and hamstrings. To correctly do a lunge:
+\n\nStart by standing up tall.
+\nStep forward with one foot until your leg reaches a 90-degree angle. Your rear knee should remain parallel to the ground and your front knee shouldn’t go beyond your toes.
+\nLift your front lunging leg to return to the starting position.
+\nRepeat 10 to 12 reps on one leg, or switch off between legs until you’ve totaled 10 to 12 reps per leg.
+    </string>
+    <string name="leg_side_lunges_with_twist">side lunges with twist</string>
+    <string name="leg_side_lunges_with_twist_json">leg_side_lunges_with_twist.json</string>
+    <string name="leg_side_lunges_with_twist_time">00:60</string>
+    <string name="leg_side_lunges_with_twist_MET">4</string>
+    <string name="leg_side_lunges_with_twist_desc">
+         How to do a it :
+        \n\nThe basic lunge works the quads, glutes, and hamstrings. To correctly do a lunge:
+        \n\n Start by standing up tall
+        \nStep forwoard with one foot and touch leg by your opposite arm
+        \nLift your front lunging leg to return to the starting position.
+        \nswitch off between leg.
+    </string>
+    <string name="leg_side_plank">side plank</string>
+    <string name="leg_side_plank_json">leg_side_plank.json</string>
+    <string name="leg_side_plank_time">00:20</string>
+    <string name="leg_side_plank_MET">2</string>
+    <string name="leg_side_plank_desc">
+        How to do a side plank
+\n\nBefore starting, try to find a mat or other soft surface to perform a side plank on. This can help reduce stress on your arms and feet.
+\n\nInstructions :
+\n\n1.Lie on your left side with your right straight and feet stacked on top of each other. Place your left elbow under your left shoulder with your forearm pointing away from you and your hand balled into a fist. The pinky side of your hand should be in contact with the ground.
+\n2.With your neck neutral, breathe out and brace your core.
+\n3.Lift your hips off the mat so that you’re supporting your weight on your elbow and the side of your left foot. Your body should be in a straight line from your ankles to your head.
+\n4.Hold this position for the duration of the exercise. Depending on your fitness level
+\n5.Repeat on your right side.
+\n\nSafety tip :
+\n\nThe side plank is safe for most people, but it’s best to avoid this exercise if you have shoulder, arm, or core pain. If you feel pain during the exercise, stop immediately.
+    </string>
+    <string name="leg_torso_twist_stretch_left_json">leg_torso_twist_stretch_left.json</string>
+    <string name="leg_torso_twist_stretch_left_time">00:20</string>
+    <string name="leg_torso_twist_stretch_left_MET">2.3</string>
+    <string name="leg_torso_twist_stretch_left_desc">
+        What it stretches: outer thighs, hips, glutes, lower back, shoulders
+\n\nStep 1: Sit down on the floor with both legs extended out in front of you.
+\n\nStep 2: Cross your right leg over your left and place your right foot firmly on the ground next to your left knee.
+\n\nStep 3: Twist your upper body to the right and place your right hand behind you.
+\n\nStep 4: Place your left elbow on your right knee and press outward to deepen the stretch as you continue to twist.
+    </string>
+    <string name="leg_torso_twist_stretch_left">torso twist stretch left</string>
+    <string name="leg_torso_twist_stretch_right">torso twist stretch right</string>
+    <string name="leg_torso_twist_stretch_right_json">leg_torso_twist_stretch_right.json</string>
+    <string name="leg_torso_twist_stretch_right_time">00:20</string>
+    <string name="leg_torso_twist_stretch_right_MET">2.3</string>
+    <string name="leg_torso_twist_stretch_right_desc">
+        What it stretches: outer thighs, hips, glutes, lower back, shoulders
+\n\nStep 1: Sit down on the floor with both legs extended out in front of you.
+\n\nStep 2: Cross your left leg over your right and place your left foot firmly on the ground next to your right knee.
+\n\nStep 3: Twist your upper body to the left and place your left hand behind you.
+\n\nStep 4: Place your right elbow on your left knee and press outward to deepen the <stre></stre>tch as you continue to twist.
+    </string>
+    <string name="leg_wall_sitting">wall sitting</string>
+    <string name="leg_wall_sitting_json">leg_wall_sitting.json</string>
+    <string name="leg_wall_sitting_time">00:15</string>
+    <string name="leg_wall_sitting_MET">2</string>
+    <string name="leg_wall_sitting_desc">
+        You can perform this exercise anywhere you have access to a flat wall.
+\n\n1.Start with your back against a wall with your feet shoulder width and about 2 feet from the wall.
+\n2.Engage your abdominal muscles and slowly slide your back down the wall until your thighs are parallel to the ground.
+\n3.Adjust your feet so your knees are directly above your ankles (rather than over your toes).
+\n4.Keep your back flat against the wall.
+\n5.Hold the position.
+\n6.Slide slowly back up the wall to a standing position.
+    </string>
+
+
+    <string name="sb_camel_pose">camel pose</string>
+    <string name="sb_camel_pose_json">sb_camel_pose.json</string>
+    <string name="sb_camel_pose_time">00:35</string>
+    <string name="sb_camel_pose_MET">2</string>
+    <string name="sb_camel_pose_desc">
+        step-by-Step Instructions :
+\n\nStep 1 :
+Start on your hands and knees in a “tabletop” position. Make sure your knees are set directly below your hips and your wrists, elbows and shoulders are in line and perpendicular to the floor. Center your head in a neutral position, eyes looking at the floor.
+\nStep 2 :
+As you inhale, lift your sitting bones and chest toward the ceiling, allowing your belly to sink toward the floor. Lift your head to look down.
+\nStep 3 :
+Exhale, coming back to neutral “tabletop” position on your hands and knees
+    </string>
+    <string name="sb_crab_toe_touches">crab toe touches</string>
+    <string name="sb_crab_toe_touches_json">sb_crab_toe_touches.json</string>
+    <string name="sb_crab_toe_touches_time">00:20</string>
+    <string name="sb_crab_toe_touches_MET">2</string>
+    <string name="sb_crab_toe_touches_desc">
+        Sit on the floor with your feet in front of you and hands behind you. Your fingers can be pointed towards the side or behind you. With your feet on the floor, lift your hips skyward. Pause when your body is parallel with the floor.
+\n\nFocusing on contracting the core first, bring your right hand up while simultaneously lifting your left leg up. Touch your right hand to your left toes.
+\n\nSlowly return to the elevated position and switch sides. Bring your left hand to your right toes. Keep alternating back and forth.
+    </string>
+    <string name="sb_elevated_pike_push_up">elevated pike push up</string>
+    <string name="sb_elevated_pike_push_up_json">sb_elevated_pike_push_up.json</string>
+    <string name="sb_elevated_pike_push_up_time">00:30</string>
+    <string name="sb_elevated_pike_push_up_MET">8</string>
+    <string name="sb_elevated_pike_push_up_desc">
+        Exercise Description:
+\n\n1. Get into the pike position with your feet elevated on a bench or chair
+\n2. Lower your head towards the floor by bending your elbows
+\n3. Push through your hands and return to the starting pike position
+\n4. Repeat
+    </string>
+    <string name="sb_floor_dips">floor dips</string>
+    <string name="sb_floor_dips_json">sb_floor_dips.json</string>
+    <string name="sb_floor_dips_time">00:30</string>
+    <string name="sb_floor_dips_MET">2</string>
+    <string name="sb_floor_dips_desc">
+        Starting Position :
+\n1.sit down on the ground
+\n2.your legs are slightly bent
+\n3.put the feet together and place them on the ground
+\n4.support your body by placing the hands behind your back
+\n5.the elbows point backwards, the fingertips are pointed to the feet
+\n6.keep the back straight
+\n7.push the arms through
+\n8.bring up your hip until the body in a line
+\n9.push the feet a bit more forward
+\n\nCorrect Execution :
+\n1.slowly bend your elbow joints
+\n2.your body is sinking down now
+\n3.try to keep up the hip and the body in a line
+\n4.the range of motion is small, although you can feel the tension in the triceps
+\n5.push your body back up again
+\n6.repeat the exercise several times for an effective triceps workout
+\n7.the arms are always bent a little
+    </string>
+    <string name="sb_high_plank_jacks">high plank jacks</string>
+    <string name="sb_high_plank_jacks_json">sb_high_plank_jacks.json</string>
+    <string name="sb_high_plank_jacks_time">00:45</string>
+    <string name="sb_high_plank_jacks_MET">2</string>
+    <string name="sb_high_plank_jacks_desc">
+        Begin in a high plank position with your hands on the floor. While maintaining your alignment, perform a jumping jack with your legs. Hop your toes apart and then back together repetitively for the desired reps or time.
+
+\n\nTry to avoid excessive spinal movement here and keep the upper core braced by consciously pushing your sternum away from the floor.
+    </string>
+    <string name="sb_iron_man">iron man</string>
+    <string name="sb_iron_man_json">sb_iron_man.json</string>
+    <string name="sb_iron_man_time">00:45</string>
+    <string name="sb_iron_man_MET">2</string>
+    <string name="sb_iron_man_desc">
+    A person needs strong back extensors to maintain good posture. These muscles run along either side of the spine.
+
+   \n Weak back extensors can reduce spinal and pelvic support, but doing an exercise also called a “Superman” can help.
+
+   \n\n To perform a Superman:
+
+    \n1. Lie face down on the ground and stretch both arms out in front of the body, keeping the legs stretched out and flat on the ground.
+    \n2.Raise both the hands and feet, aiming to create a gap of about 6 inches between them and the floor.
+    \n3.Try to pull in the bellybutton, lifting it off the floor to engage the core muscles.
+    \n4.Keep the head straight and look at the floor to avoid neck injury.
+    \n5.Stretch the hands and feet outward as far as possible.
+    \n6.Hold the position for 2 seconds.
+    \n6.Return to the starting position.
+    </string>
+    <string name="sb_iron_man_pose">iron man pose</string>
+    <string name="sb_iron_man_pose_json">sb_iron_man_pose.json</string>
+    <string name="sb_iron_man_pose_time">00:15</string>
+    <string name="sb_iron_man_pose_MET">2</string>
+    <string name="sb_iron_man_pose_desc">
+    A person needs strong back extensors to maintain good posture. These muscles run along either side of the spine.
+
+    \n Weak back extensors can reduce spinal and pelvic support, but doing an exercise also called a “Superman” can help.
+
+    \n\n To perform a Superman:
+
+    \n1. Lie face down on the ground and stretch both arms out in front of the body, keeping the legs stretched out and flat on the ground.
+    \n2.Raise both the hands and feet, aiming to create a gap of about 6 inches between them and the floor.
+    \n3.Try to pull in the bellybutton, lifting it off the floor to engage the core muscles.
+    \n4.Keep the head straight and look at the floor to avoid neck injury.
+    \n5.Stretch the hands and feet outward as far as possible.
+    \n6.Hold the position for 2 seconds.
+    \n6.Return to the starting position.
+    </string>
+    <string name="sb_kneeling_back_rotation_left">kneeling back rotation left</string>
+    <string name="sb_kneeling_back_rotation_left_json">sb_kneeling_back_rotation_left.json</string>
+    <string name="sb_kneeling_back_rotation_left_time">00:20</string>
+    <string name="sb_kneeling_back_rotation_left_MET">2</string>
+    <string name="sb_kneeling_back_rotation_left_desc">
+How to do the Kneeling Back Rotation Stretch:
+        \n\nKneel on the ground and raise one arm. Then rotate your shoulders and middle back while looking upwards. Keep your arm pointing straight upwards and follow your hand with your eyes. This will help to further extend the stretch into your neck. Hold the stretch position for a minimum of 20 seconds and then repeat with the opposite arm.
+    </string>
+    <string name="sb_kneeling_back_rotation_right">kneeling back rotation right</string>
+    <string name="sb_kneeling_back_rotation_right_json">sb_kneeling_back_rotation_right.json</string>
+    <string name="sb_kneeling_back_rotation_right_time">00:20</string>
+    <string name="sb_kneeling_back_rotation_right_MET">2</string>
+    <string name="sb_kneeling_back_rotation_right_desc">How to do the Kneeling Back Rotation Stretch:
+        \n\nKneel on the ground and raise one arm. Then rotate your shoulders and middle back while looking upwards. Keep your arm pointing straight upwards and follow your hand with your eyes. This will help to further extend the stretch into your neck. Hold the stretch position for a minimum of 20 seconds and then repeat with the opposite arm.
+    </string>
+    <string name="sb_pike_push_up">pike push up</string>
+    <string name="sb_pike_push_up_json">sb_pike_push_up.json</string>
+    <string name="sb_pike_push_up_time">00:20</string>
+    <string name="sb_pike_push_up_MET">8</string>
+    <string name="sb_pike_push_up_desc">
+        Here’s how to do the perfect pike push-up, step by step!
+\n\n1.Start in a plank position on the floor, with hands firmly on the floor, right under your shoulders. Press toes firmly into the floor too.
+\n2.Keep core tight and back flat and engage your glutes and hamstrings. Your whole body should be neutral and in a straight line.
+\n3.Lift hips up and back until your body forms an inverted V shape. Keep arms and legs as straight as possible.
+\n4.Start to bend elbows, and then lower your entire upper body toward the floor.
+\n5.Stay there for a moment, then slowly push back up until your arms are straight and you’re in the inverted V position. Make sure you maintain control throughout the movement.
+    </string>
+    <string name="sb_prone_chest_stretch_left">prone chest stretch left</string>
+    <string name="sb_prone_chest_stretch_left_json">sb_prone_chest_stretch_left.json</string>
+    <string name="sb_prone_chest_stretch_left_time">00:30</string>
+    <string name="sb_prone_chest_stretch_left_MET">2.3</string>
+    <string name="sb_prone_chest_stretch_left_desc">
+        Play around with the angle of your arm to find different areas of restriction. The higher your shoulder elevates, the more the sternal fibers will be targeted. The lower it goes, the more the clavicular fibers will be targeted.
+.</string>
+    <string name="sb_prone_chest_stretch_right">prone chest stretch right</string>
+    <string name="sb_prone_chest_stretch_right_json">sb_prone_chest_stretch_right.json</string>
+    <string name="sb_prone_chest_stretch_right_time">00:30</string>
+    <string name="sb_prone_chest_stretch_right_MET">2.3</string>
+    <string name="sb_prone_chest_stretch_right_desc">
+        Play around with the angle of your arm to find different areas of restriction. The higher your shoulder elevates, the more the sternal fibers will be targeted. The lower it goes, the more the clavicular fibers will be targeted.
+.</string>
+    <string name="LEG_BEGINNER">LEG BEGINNER</string>
+    <string name="LEG_INTERMEDIATE">LEG INTERMEDIATE</string>
+    <string name="leg_advanced">LEG ADVANCED</string>
+    <string name="leg_workout">LEG WORKOUT</string>
+    <string name="chest_beginner">CHEST BEGINNER</string>
+    <string name="chest_intermediate">CHEST INTERMEDIATE</string>
+    <string name="chest_advanced">CHEST ADVANCED</string>
+    <string name="chest_workout">CHEST WORKOUT</string>
+    <string name="abs_workout">ABS WORKOUT</string>
+    <string name="abd_intermediate">ABS INTERMEDIATE</string>
+    <string name="abd_advanced">ABS ADVANCED</string>
+    <string name="abd_beginner">ABS BEGINNER</string>
+    <string name="s_and_b_intermediate">SHOULDER AND BACK INTERMEDIATE</string>
+    <string name="s_and_b_advanced">SHOULDER AND BACK ADVANCED</string>
+    <string name="s_and_b_workout">SHOULDER AND BACK WORKOUT</string>
+    <string name="privacy_policy">https://www.google.com/</string>
+    <string name="email">info@qrolic.com</string>
+
+    <string-array name="Languages">
+        <item>UK</item>
+        <item>CANADA_FRENCH</item>
+        <item>CANADA</item>
+        <item>GERMAN</item>
+        <item>ITALIAN</item>
+        <item>JAPANESE</item>
+        <item>ENGLISH</item>
+        <item>FRENCH</item>
+        <item>US</item>
+    </string-array>
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/tvDialogWeightUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text=" LB"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvKG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/gray_border_button"
+            android:padding="@dimen/_5sdp"
+            android:text="KG"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/tvLB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@color/dark_pink"
+            android:padding="@dimen/_5sdp"
+            android:text="LB"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvHieght"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llHeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etHeightFeet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:inputType="number"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:text=" FT"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etHeightInch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:text=" IN"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHeightCM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etHeightCM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:text="  CM"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/gray_border_button"
+            android:padding="@dimen/_5sdp"
+            android:text="CM"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/tvIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@color/dark_pink"
+            android:padding="@dimen/_5sdp"
+            android:text="IN"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:padding="@dimen/_15sdp"
+            android:text="CANCEL"
+            android:textColor="@color/dark_pink"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/tvSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:padding="@dimen/_15sdp"
+            android:text="SAVE"
+            android:textColor="@color/dark_pink"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>
