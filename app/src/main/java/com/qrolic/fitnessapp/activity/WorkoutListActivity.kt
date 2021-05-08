@@ -46,9 +46,9 @@ class WorkoutListActivity : AppCompatActivity() {
         /*
         * banner ad
         * */
-        MobileAds.initialize(this) {}
-        val adRequest = AdRequest.Builder().build()
-        activityWorkoutListBinding.adView.loadAd(adRequest)
+//        MobileAds.initialize(this) {}
+//        val adRequest = AdRequest.Builder().build()
+//        activityWorkoutListBinding.adView.loadAd(adRequest)
 
 
         workoutName = intent.getStringExtra("workoutName").toString()

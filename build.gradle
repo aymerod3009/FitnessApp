@@ -32,8 +32,8 @@ allprojects {
     }
 }
 
-apply plugin: 'com.amplifyframework.amplifytools'
-
+//apply plugin: 'com.amplifyframework.amplifytools'
+//
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

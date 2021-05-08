@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
+//import com.google.android.gms.ads.AdRequest
+//import com.google.android.gms.ads.MobileAds
 import com.qrolic.fitnessapp.R
 import com.qrolic.fitnessapp.databinding.ActivityPrivacyPolicyBinding
 
@@ -32,9 +32,9 @@ class PrivacyPolicyActivity : AppCompatActivity() {
         /*
       * banner ad
       * */
-        MobileAds.initialize(this) {}
-        val adRequest = AdRequest.Builder().build()
-        activityPrivacyPolicyBinding.adView.loadAd(adRequest)
+//        MobileAds.initialize(this) {}
+//        val adRequest = AdRequest.Builder().build()
+//        activityPrivacyPolicyBinding.adView.loadAd(adRequest)
 
     }
 

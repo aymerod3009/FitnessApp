@@ -11,11 +11,11 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.lifecycleScope
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.LoadAdError
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.interstitial.InterstitialAd
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
+//import com.google.android.gms.ads.AdRequest
+//import com.google.android.gms.ads.LoadAdError
+//import com.google.android.gms.ads.MobileAds
+//import com.google.android.gms.ads.interstitial.InterstitialAd
+//import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.qrolic.fitnessapp.BuildConfig
 import com.qrolic.fitnessapp.R
 import com.qrolic.fitnessapp.database.FitnessDatabase
@@ -41,7 +41,7 @@ class ExerciseCompleteActivity : AppCompatActivity() {
     lateinit var mySharedPreferences: MySharedPreferences
     lateinit var db: FitnessDatabase
     private lateinit var workoutName: String
-    private lateinit var mInterstitialAd: InterstitialAd
+//    private lateinit var mInterstitialAd: InterstitialAd
     lateinit var activityExerciseCompleteBinding: ActivityExerciseCompleteBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,25 +56,25 @@ class ExerciseCompleteActivity : AppCompatActivity() {
         /*
         * intertitial ad
         * */
-        MobileAds.initialize(this) {}
-        val adRequest = AdRequest.Builder().build()
+//        MobileAds.initialize(this) {}
+//        val adRequest = AdRequest.Builder().build()
 
-        InterstitialAd.load(
-            this,
-            resources.getString(R.string.intertitial_id),
-            adRequest,
-            object : InterstitialAdLoadCallback() {
-                override fun onAdLoaded(interstitialAd: InterstitialAd) {
-                    // The mInterstitialAd reference will be null until
-                    // an ad is loaded.
-                    mInterstitialAd = interstitialAd
-                    mInterstitialAd.show(this@ExerciseCompleteActivity)
-                }
-
-                override fun onAdFailedToLoad(loadAdError: LoadAdError) {
-                    // Handle the error
-                }
-        })
+//        InterstitialAd.load(
+//            this,
+//            resources.getString(R.string.intertitial_id),
+//            adRequest,
+//            object : InterstitialAdLoadCallback() {
+//                override fun onAdLoaded(interstitialAd: InterstitialAd) {
+//                    // The mInterstitialAd reference will be null until
+//                    // an ad is loaded.
+//                    mInterstitialAd = interstitialAd
+//                    mInterstitialAd.show(this@ExerciseCompleteActivity)
+//                }
+//
+//                override fun onAdFailedToLoad(loadAdError: LoadAdError) {
+//                    // Handle the error
+//                }
+//        })
 
         rateus()
 

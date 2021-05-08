@@ -15,8 +15,8 @@ import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.data.BarData
 import com.github.mikephil.charting.data.BarDataSet
 import com.github.mikephil.charting.data.BarEntry
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
+//import com.google.android.gms.ads.AdRequest
+//import com.google.android.gms.ads.MobileAds
 import com.qrolic.fitnessapp.R
 import com.qrolic.fitnessapp.activity.ProfileActivity
 import com.qrolic.fitnessapp.database.FitnessDatabase
@@ -60,9 +60,9 @@ class ReportFragment : Fragment() {
         /*
         * banner ad
         * */
-        MobileAds.initialize(context) {}
-        val adRequest = AdRequest.Builder().build()
-        fragmentReportBinding.adView.loadAd(adRequest)
+//        MobileAds.initialize(context) {}
+//        val adRequest = AdRequest.Builder().build()
+//        fragmentReportBinding.adView.loadAd(adRequest)
 
         db = FitnessDatabase.invoke(requireContext())
         mySharedPreferences = MySharedPreferences(requireContext())
